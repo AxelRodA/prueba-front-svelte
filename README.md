@@ -1,38 +1,30 @@
-# create-svelte
+# Requisitos minimos para ejecutar la app
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+Tener instalado:
+* Node version 16.15.0 o superior de preferencia la mas reciente (18.9.0)
+* NPM version mas reciente estable (8.19.11)
 
-## Creating a project
+# Instrucciones para ejeccutar la app
 
-If you're seeing this, you've probably already done this step. Congrats!
+* Una ves clonado el respositorio hay que abrir una terminal o cmd dependiendo el sistema operatico en la ruta del respositorio clonado localmente, si estas ocupando Visual Studio Code puedes abrir el poyecto con el y abrir una terminal integrada en vs-code y proceder a ejecutar el comando 
+  
+      npm install 
+  
+  Para instalar todas las dependencias y una ves terminada la instalación se ejecuta el comando:
+  
+      npm run dev
+  
+  Esto iniciara la app y mostrara la direccion que tenemos de ingresar en el navegador en la barra de direcciones para poder manipular la app.
+  
+# Ejemplo de lo que mostrara una ves ejecutado el comando:
+  
+      axelrodriguezangel@MacBook-Pro-de-Axel prueba-front-svelte % npm run dev                    
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+    > prueba-front-svelte@0.0.1 dev
+    > vite dev
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
 
-## Developing
+      VITE v3.1.0  ready in 5006 ms
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+      ➜  Local:   http://localhost:5173/
+      ➜  Network: use --host to expose
